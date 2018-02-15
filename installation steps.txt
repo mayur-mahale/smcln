@@ -1,0 +1,24 @@
+1) Install python
+2) Install Pip
+3) Install Virtualenv
+	pip install virtualenv
+	
+4) Create a virtual env for project dependency
+	virtual smcln_project
+	source activate smcln_project 
+5) Install nltk ------> for preprocessing of the data
+	pip install nltk
+	
+6) Install nltk data
+	open python console
+		>> import nltk
+		>> nltk.download()
+7) Install Gensim -----> for topic modelling
+	easy_install numpy
+	easy_install scipy
+	easy_install --upgrade gensim
+
+	
+	https://ddi-alliance.atlassian.net/wiki/spaces/DDI4/pages/491697/Simple+Data+Description+meeting+minutes
+	https://nlpforhackers.io/topic-modeling/
+	http://sujitpal.blogspot.in/2014/08/topic-modeling-with-gensim-over-past.html
